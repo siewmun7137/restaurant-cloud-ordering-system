@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Restaurant Menu</title>
+  <style>
+    body { font-family: Arial; background:#f7f7f7; padding:20px;}
+    h1 { text-align:center; }
+    .menu-item { background:white; padding:15px; margin:10px; border-radius:8px; }
+    button { background:#ff6600; color:white; border:none; padding:8px 12px; cursor:pointer;}
+  </style>
+</head>
+<body>
+
+<h1>🍽️ Cloud Restaurant Menu</h1>
+
+<div class="menu-item">
+  <h3>Fried Rice - RM8</h3>
+  <button onclick="placeOrder('Fried Rice')">Order</button>
+</div>
+
+<div class="menu-item">
+  <h3>Chicken Burger - RM10</h3>
+  <button onclick="placeOrder('Chicken Burger')">Order</button>
+</div>
+
+<div class="menu-item">
+  <h3>Milk Tea - RM6</h3>
+  <button onclick="placeOrder('Milk Tea')">Order</button>
+</div>
+
+<p id="result"></p>
+
+<script>
+function placeOrder(item){
+  document.getElementById("result").innerText =
+    "Order placed: " + item + " ✅";
+}
+</script>
+
+</body>
+</html>
