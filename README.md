@@ -39,6 +39,10 @@ Customer Web App (S3)
 Phase 1: Project initialization completed  
 Phase 2: Frontend static website in progress
 
+## Live Demo
+Customer Ordering Page:
+http://restaurant-cloud-ordering-smkhong.s3-website-ap-southeast-1.amazonaws.com/
+
 ## Author
 SM Khong
 
